@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+}
+
+.flexContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  height: 69px;
+  justify-content: space-between;
+  background-color: black;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Images section*/
+
+#img_logo {
+  height: 50px;
+  margin: 10px;
+}
+
+.imgOurMission {
+  background-image: url(/pictures/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 70px;
+}
+
+#month1 {
+  height: 200px;
+  width: 300px;
+  margin: 10px 10px 0 10px;
+}
+#month2 {
+  height: 200px;
+  width: 300px;
+  margin: 10px 10px 0 10px;
+}
+#month3 {
+  height: 200px;
+  width: 300px;
+  margin: 10px 10px 0 10px;
+}
+#month4 {
+  height: 200px;
+  width: 300px;
+  margin: 10px 10px 0 10px;
+}
+#month5 {
+  height: 200px;
+  width: 300px;
+  margin: 10px 10px 0 10px;
+}
+
+.img_Locations {
+  background-image: url(/pictures/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* nav bar section*/
+
+nav {
+  font-size: 22px;
+  opacity: 0.9;
+  text-decoration: underline;
+  font-family: Helvetica, Arial, sans-serif;
+  color: seashell;
+  /* border: 4px solid whitesmoke; */
+  align-self: center;
+  margin-right: 10px;
+}
+
+nav span {
+  margin-left: 10px;
+}
+
+/* Our Mission section */
+
+.OurMission {
+  /* border: 2px solid rgb(16, 221, 68); */
+  width: 1200px;
+  background-color: black;
+  margin: 0 auto;
+  position: absolute;
+  justify-content: center;
+}
+
+/* Tea Of The Month section */
+
+.teaOfTheMonth_space {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 1000px;
+}
+
+.teaOfTheMonth_space h4 {
+  position: relative;
+  margin-top: 10px;
+}
+
+/* Locations section */
+
+.AddressBox1,
+.AddressBox2,
+.AddressBox3 {
+  background-color: black;
+  height: 300px;
+  width: 300px;
+  margin: 15px 40px;
+}
+
+.AddressBox1,
+.AddressBox2,
+ p {
+  line-height: 2.8rem;
+}
+
+.AddressBox3 {
+    padding-top: 14px;
+}
+/* contact information section */
+
+.contactInformation {
+  height: 200px;
+  width: 100%;
+}
+
+/* footer section */
+
+footer {
+  text-align: left;
+  margin-left: 20px;
+}
+
+
